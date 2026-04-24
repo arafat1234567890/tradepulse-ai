@@ -1,0 +1,2 @@
+import Layout from '../components/Layout';
+export default function Strategies(){ const items=['Scalping','Swing Trading','Trend Following','News-Based']; return <Layout><h1>Strategies</h1><div className="grid">{items.map(x=><div className="card" key={x}><h3>{x}</h3><p>Uses multi-factor confirmation and strict risk control.</p><button className="btn secondary">Configure</button></div>)}</div></Layout> }

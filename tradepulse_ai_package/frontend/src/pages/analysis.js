@@ -1,0 +1,2 @@
+import Layout from '../components/Layout';
+export default function Analysis(){ return <Layout><h1>Market Analysis</h1><div className="card"><h2>TradingView Chart Area</h2><p>Embed TradingView widget here for live charts, indicators, and symbol switching.</p></div><div className="grid"><div className="card"><h3>Trend</h3><p>Bullish short-term</p></div><div className="card"><h3>Volatility</h3><p>Medium</p></div><div className="card"><h3>News Impact</h3><p>Neutral</p></div></div></Layout> }
